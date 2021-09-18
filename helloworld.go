@@ -11,4 +11,11 @@ func main() {
 		fmt.Println(repeats)
 		repeats--
 	}
+
+	val := add(1, 2)
+	fmt.Println(val)
+}
+
+func add(a, b int) int {
+	return a + b
 }

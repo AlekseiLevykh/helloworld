@@ -30,5 +30,8 @@ func mul(a, b int) int {
 }
 
 func sub(a, b int) int {
+	if b < 0 {
+		return a + b
+	}
 	return a - b
 }

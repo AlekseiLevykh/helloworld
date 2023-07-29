@@ -17,6 +17,8 @@ func main() {
 
 	val = mul(val, 3)
 	fmt.Println(val)
+
+	fmt.Println(sub(val, -7))
 }
 
 func add(a, b int) int {
@@ -25,4 +27,8 @@ func add(a, b int) int {
 
 func mul(a, b int) int {
 	return a * b
+}
+
+func sub(a, b int) int {
+	return a - b
 }
